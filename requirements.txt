@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate
+bitsandbytes
+langchain
+sentence-transformers
+faiss-gpu
+python-dotenv
+kaggle
