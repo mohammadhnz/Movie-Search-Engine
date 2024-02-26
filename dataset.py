@@ -15,4 +15,4 @@ if __name__ == "__main__":
     all_movies["Genre"] = all_movies["Genre"].apply(lambda x: "unknown" if x in ["", " ", "-", "[140]", "[144]"] else x)
     all_movies = all_movies[['Title', 'Release Year', 'Genre', 'Origin/Ethnicity', 'Plot']]
     all_movies.rename({'Origin/Ethnicity': 'Origin', 'Release Year': 'Year'}, axis=1, inplace=True)
-    all_movies.to_csv("datasets/movies.csv")
+    all_movies.to_csv("datasets/movies.csv", index=False)
