@@ -1,5 +1,5 @@
-# Movie Retriever GAN
+# Movie Retriever RAG
 
 
 # Final Results
-<img width="643" alt="image" src="https://github.com/NLP-Final-Projects/Movie-Search-Engine/assets/59181719/fb4d49d9-3c0f-4d96-b4dc-790cf4704f5c">
+<img width="634" alt="image" src="https://github.com/NLP-Final-Projects/Movie-Search-Engine/assets/59181719/84c849a9-76c7-41ba-9ff5-0e7961736ad1">
