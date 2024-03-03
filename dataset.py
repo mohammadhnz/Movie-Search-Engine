@@ -11,6 +11,7 @@ if __name__ == "__main__":
     wiki_movies.rename(columns = {'EN_title':'Title', "Content_2":"Content"}, inplace = True)
     wiki_movies = wiki_movies.reindex(sorted(wiki_movies.columns), axis=1)
     all_movies = pd.concat([wiki_movies, persian_movies], ignore_index=True)
+    all_movies.drop_duplicates(subset=['Title', 'Release Year'], inplace=True)
     all_movies.fillna("unknown", inplace=True)
     all_movies["Genre"] = all_movies["Genre"].apply(lambda x: "unknown" if x in ["", " ", "-", "[140]", "[144]"] else x)
     all_movies = all_movies[['Title', 'Release Year', 'Genre', 'Origin/Ethnicity', 'Plot']]

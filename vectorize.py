@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME")
 
-    loader = CSVLoader("datasets/movies.csv", source_column="Title", encoding = 'UTF-8')
+    loader = CSVLoader("datasets/movies.csv", source_column="Title")
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=1500,

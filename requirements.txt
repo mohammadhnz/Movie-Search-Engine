@@ -1,4 +1,4 @@
-torch
+pyTelegramBotAPI
 transformers
 accelerate
 bitsandbytes
@@ -7,9 +7,5 @@ sentence-transformers
 faiss-gpu
 python-dotenv
 kaggle
-selenium
-urllib3
 pandas
-transformers
-Flask
-openai
+numpy

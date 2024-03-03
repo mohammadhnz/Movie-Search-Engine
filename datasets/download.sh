@@ -10,3 +10,5 @@ unzip persian-movie-dataset-english-persian.zip
 rm persian-movie-dataset-english-persian.zip
 mv dataset.csv persian.csv
 rm dataset.xlsx
+unzip reviews.zip
+rm reviews.zip
