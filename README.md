@@ -6,6 +6,8 @@ This is a RAG-based model for retrieving and recommending movies to users based 
 Overall structure of this model is shown below:
 ![could not load](assets/overall.png)
 
+[Presentation Slides](https://docs.google.com/presentation/d/1bnuI5RUtohhFU1CeaE7XRRsO4Ij9ykPfOsgIR34GRsI/edit#slide=id.g2bf2fba26ac_2_61)
+
 ## Installations
 Required packages are listed in requirements.txt file. You need to install them first:
 ```
